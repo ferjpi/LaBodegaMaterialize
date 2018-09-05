@@ -1,0 +1,36 @@
+
+/* header */
+nav {
+  box-shadow: none;
+}
+.brand-logo {
+  background: url('../img/LaBodegaDePacho_Logo.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 192px;
+}
+.nav-wrapper span i {
+  fill: black;
+  color: black;
+}
+.nav-wrapper li a,
+.nav-wrapper li i {
+  color: black;
+  fill: black;
+}
+/* Categories */
+#categories {
+  display: flex;
+  justify-content: center;
+}
+
+/* Categories */
+
+/* header */
+
+/* Line */
+#line {
+  width: 100%;
+  height: 40px;
+}
+/* Line */
