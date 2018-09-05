@@ -107,5 +107,31 @@ nav {
 }
 /* man */
 
+/* children */
+.background-image3 {
+  background: url('../img/children.jpeg');
+  background-size: cover;
+  width: 100%;
+  height: 450px;
+  background-position: center;
+  position: relative;
+}
+#category h2.children {
+  position: absolute;
+  top: 28%;
+  right: 40%;
+  left: unset;
+  font-size: 6rem;
+}
+#category a.children {
+  position: absolute;
+  bottom: 25%;
+  right: 45%;
+  left: unset;
+  border: 1px solid;
+  padding: 0 15px;
+}
+/* children */
+
 
 /* category */
