@@ -34,3 +34,19 @@ nav {
   height: 40px;
 }
 /* Line */
+
+/* slider */
+
+.slider .slides {
+  height: 440px !important;
+}
+.slider .indicators {
+  z-index: 10;
+}
+.slider .indicators .indicator-item {
+  background-color: #ffff;
+}
+.slider .indicators .indicator-item.active {
+  background-color: #64b5f6;
+}
+/* slider */
