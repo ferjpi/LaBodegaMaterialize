@@ -148,12 +148,13 @@ nav {
 }
 
 .file-field .btn {
-  margin-right: 180px;
+  margin-right: 260px;
+  padding: 0 50px;
 }
 .file-field input.file-path {
   margin-left: 230px;
   display: inline-block;
-  width: 300px;
+  width: 320px;
 }
 /* subscribe */
 
