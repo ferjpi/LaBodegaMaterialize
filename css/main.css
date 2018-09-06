@@ -156,3 +156,21 @@ nav {
   width: 300px;
 }
 /* subscribe */
+
+/* footer  */
+#footer {
+  border-top: 1px solid #ccc;
+  padding-top: 20px;
+  margin-top: 70px;
+}
+#footer .col {
+  border-right: 1px solid #ccc;
+}
+#footer .col:last-child {
+  border-right: none;
+}
+#footer .end-page {
+  font-size: .7rem;
+}
+
+/* footer  */
