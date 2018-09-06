@@ -18,6 +18,16 @@ nav {
   color: black;
   fill: black;
 }
+#lente {
+  display: flex;
+}
+#lente i {
+  margin-right: 0;
+}
+#lente input:focus {
+  border-color: #64b5f6;
+}
+
 /* Categories */
 #categories {
   display: flex;
@@ -145,6 +155,9 @@ nav {
 }
 #subscribe h5 {
   margin-top: 4px;
+}
+#subscribe input:focus {
+  border-color: #64b5f6;
 }
 
 .file-field .btn {
