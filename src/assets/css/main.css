@@ -35,7 +35,17 @@ nav {
 #lente input:focus {
   border-color: #64b5f6;
 }
-
+#mobile-search {
+  display: none;
+  background-color: transparent;
+}
+#search {
+  cursor: auto;
+}
+#mobile-search .input-field label i {
+  color: #000;
+  fill: #000;
+}
 /* Categories */
 #categories {
   display: flex;

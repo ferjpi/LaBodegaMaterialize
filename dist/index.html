@@ -16,7 +16,7 @@
      <nav>
        <div class="nav-wrapper white">
          <span id="lente" class="left"><i class="material-icons left" style="padding: 0 15px;">search</i>
-          <input type="text" placeholder="Buscar">
+          <input type="text" placeholder="Buscar" class="hide-on-med-and-down">
          </span>
          <a href="#" class="brand-logo center logo">
            <img src="" alt="">
@@ -24,9 +24,12 @@
          <ul id="nav-mobile" class="right hide-on-med-and-down">
            <li><a href="sass.html"><i class="material-icons right">shopping_cart</i>Carrito</a></li>
          </ul>
+         <a href="#" data-target="mobile" class="sidenav-trigger right black-text">
+           <i class="material-icons">menu</i>
+         </a>
        </div>
      </nav>
-     <ul id="categories" class="center row">
+     <ul id="categories" class="center row hide-on-med-and-down">
        <li><a href="#" class="col s1 black-text">CATALOGO</a></li>
        <li><a href="#" class="col s1 black-text">MUJER</a></li>
        <li><a href="#" class="col s1 black-text">HOMBRE</a></li>
@@ -34,6 +37,26 @@
        <li><a href="#" class="col s1 black-text">PROMOCIONES</a></li>
      </ul>
 
+     <ul id="mobile" class="center sidenav">
+       <li><a href="#" class="col s1 black-text">CATALOGO</a></li>
+       <li><a href="#" class="col s1 black-text">MUJER</a></li>
+       <li><a href="#" class="col s1 black-text">HOMBRE</a></li>
+       <li><a href="#" class="col s1 black-text">NIÑOS</a></li>
+       <li><a href="#" class="col s1 black-text">PROMOCIONES</a></li>
+     </ul>
+
+
+     <nav id="mobile-search" class="hide-on-med-and-up">
+       <div class="nav-wrapper">
+         <form>
+           <div class="input-field">
+             <input id="search" type="search" required>
+             <label class="label-icon black-text" for="search"><i class="material-icons">search</i></label>
+             <i class="material-icons black-text" id="close">close</i>
+           </div>
+         </form>
+       </div>
+     </nav>
     <!--  Line  -->
     <div id="line" class="#64b5f6 blue lighten-2"></div>
     <!--  Line  -->
