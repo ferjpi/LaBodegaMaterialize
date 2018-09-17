@@ -111,6 +111,16 @@ nav {
   border: 1px solid;
   padding: 0 15px;
 }
+@media screen and (max-width: 510px) {
+  #category h2 {
+    top: 99px;
+    left: 47px;
+    font-size: 5rem;
+  }
+  #category a {
+    left: 108px;
+  }
+}
 /* woman */
 
 /* man */
@@ -136,6 +146,17 @@ nav {
   left: unset;
   border: 1px solid;
   padding: 0 15px;
+}
+@media screen and (max-width: 510px) {
+  #category a.man {
+    bottom: 195px;
+    right: 115px;
+  }
+  #category h2.man {
+    top: 67px;
+    right: 15px;
+    font-size: 5rem;
+  }
 }
 /* man */
 
@@ -163,6 +184,16 @@ nav {
   border: 1px solid;
   padding: 0 15px;
 }
+@media screen and (max-width: 510px) {
+  #category h2.children {
+    top: 30%;
+    right: 20%;
+  }
+  #category a.children {
+    bottom: 33%;
+    right: 36%;
+  }
+}
 /* children */
 
 
@@ -179,15 +210,39 @@ nav {
 #subscribe input:focus {
   border-color: #64b5f6;
 }
+.file-field {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "input button"
+}
 
 .file-field .btn {
-  margin-right: 260px;
   padding: 0 50px;
+  grid-area: button;
 }
 .file-field input.file-path {
-  margin-left: 230px;
   display: inline-block;
   width: 320px;
+  grid-area: input;
+}
+@media screen and (max-width: 510px) {
+  .file-field {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "input"
+                         "button";
+  }
+  .file-field .btn {
+    margin-right: 0;
+    grid-area: button;
+  }
+  .file-field input.file-path {
+    width: 100%;
+    margin-left: 0;
+    grid-area: input;
+  }
 }
 /* subscribe */
 
