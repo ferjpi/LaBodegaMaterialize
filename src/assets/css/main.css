@@ -28,6 +28,7 @@ nav {
 }
 #lente {
   display: flex;
+  transition: display .5s;
 }
 #lente i {
   margin-right: 0;
@@ -38,6 +39,8 @@ nav {
 #mobile-search {
   display: none;
   background-color: transparent;
+  transition: display .5s;
+  will-change: auto;
 }
 #search {
   cursor: auto;
